@@ -25,6 +25,10 @@
 
 ---
 
+This project was built to understand how API Gateway, Lambda and DynamoDB work together as a complete serverless backend. It is the foundation of what most AWS backend systems are built on including what Neulabs uses.
+What it specifically proves:
+It shows you understand how to build a REST API without managing any servers. No EC2, no load balancer, no container — just API Gateway receiving requests, Lambda processing them and DynamoDB storing the data. The whole thing scales automatically and costs nothing at low usage.
+
 ## Architecture Overview
 
 ```
